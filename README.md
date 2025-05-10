@@ -21,10 +21,9 @@ A responsive web application that allows users to explore a variety of meals, vi
 
 ## 📁 Project Structure
 
-meals/
-├── assets/ # Images and icons
-├── css/ # Stylesheets
-├── js/ # JavaScript and jQuery logic
-├── webfonts/ # Font files used in the UI
+├── assets/ # Icons and images
+├── css/ # Custom stylesheets (Bootstrap)
+├── js/ # jQuery and custom scripts
+├── webfonts/ # Fonts used in the UI
 ├── index.html # Entry point of the app
-└── jsconfig.json # JS project config
+└── jsconfig.json # JS project configuration
