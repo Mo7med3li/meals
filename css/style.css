@@ -1,0 +1,45 @@
+:root {
+  --main-color: #d62e3399;
+  --second-color: #cccccc;
+}
+body,
+.side-bar {
+  background-color: black;
+}
+.meal-layer {
+  position: absolute;
+  inset: 0;
+  transform: translatey(100%);
+  background-color: #ffffffaa;
+  transition: all 500ms;
+  border-radius: 10px;
+}
+.icon-close {
+  display: none;
+}
+.inner {
+  border-radius: 10px;
+}
+.inner:hover .meal-layer {
+  transform: translateY(0);
+}
+.logo img {
+  width: 50px;
+}
+aside {
+  z-index: 999999;
+}
+.side-bar-container {
+  display: none;
+}
+.recipes .meal-grid {
+  background-color: rgba(0, 255, 255, 0.734);
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: white !important;
+}
+input {
+  color: white !important;
+}
